@@ -499,6 +499,24 @@ form.contact-form { display: flex; flex-direction: column; gap: 16px; }
 }
 .form-note { font-size: 0.78rem; color: var(--muted); margin-top: -4px; }
 
+.form-privacy a { color: var(--gold-bright); text-decoration: underline; }
+
+/* ---------- PRIVACY PAGE ---------- */
+.legal { padding: 130px 0 80px; }
+.legal .wrap { max-width: 760px; }
+.legal h1 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
+.legal h2 { font-size: 1.1rem; margin-top: 2em; color: var(--gold-bright); }
+.legal p, .legal li { color: #c7c8cd; font-size: 1.02rem; }
+.legal ul { padding-left: 1.2em; margin: 0 0 1em; }
+.legal li { margin-bottom: 0.5em; }
+.legal b { color: var(--paper); }
+.legal .updated { font-size: 0.85rem; color: var(--muted); }
+.legal hr { border: none; border-top: 1px solid var(--line); margin: 70px 0; }
+.lang-switch { display: flex; gap: 24px; margin-bottom: 40px; font-family: 'Oswald', Arial, sans-serif; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.lang-switch a { color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.lang-switch a:hover { color: var(--gold-bright); border-color: var(--gold); }
+.legal article { scroll-margin-top: 100px; }
+
 /* ---------- FOOTER ---------- */
 footer {
   padding: 46px 0 34px;
